@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+
+  <metadata>
+    <id>TechnicalBlog</id>
+    <version>$version$</version>
+    <authors>Me</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>test demo</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/Blacky31100/TechnicalBlog.git</projectUrl>
+    <licenseUrl></licenseUrl>
+    <tags>test demo</tags>
+  </metadata>
+
+  <files>
+    <file src="bin\*.*" target="bin" exclude="bin\*.xml" />
+    <file src="Content\**\*.*" target="Content" />
+    <file src="Scripts\**\*.*" target="Scripts" />
+    <file src="fonts\**\*.*" target="fonts" />
+    <file src="Views\**\*.*" target="Views" />
+    <file src="Web.config" />
+    <file src="Global.asax" />
+  </files>
+</package>
